@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
- <meta charset="UTF-8">
- <title>Moja Wizytówka</title>
- <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Moja Wizytówka</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <header><h1>Moja Wizytówka - Portfolio</h1></header>
- <main>Moja wizytówka...</main>
+
+<header>
+    <h1>Moja Wizytówka - Portfolio</h1>
+    <nav>
+        <a href="#omnie">O mnie</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="omnie">
+        <h2>O mnie</h2>
+
+        <p id="opis">
+            Witam! Jestem studentem informatyki i uczę się tworzenia stron internetowych.
+        </p>
+
+        <button id="btn">Kliknij mnie</button>
+    </section>
+
+    <section id="projekty">
+    <h2>Projekty</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Portfolio GitHub Pages</h3>
+            <p>Moja strona CV z HTML, CSS i JavaScript.</p>
+            <a href="https://github.com/DominikGrom/DominikGrom.github.io" target="_blank">
+                Zobacz na GitHub
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Projekt "Lista Zadań"</h3>
+            <p>Prosty projekt z interakcją w JS.</p>
+            <a href="https://dominikgrom.github.io/nisp_06_todo/" target="_blank">
+                Zobacz na GitHub
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Projekt Kalkulator</h3>
+            <p>Prosty Kalkulator w przeglądarce</p>
+            <a href="https://dominikgrom.github.io/nisp_07_calculator/" target="_blank">
+                Zobacz na GitHub
+            </a>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Moje Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
